@@ -1,0 +1,147 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Syne Mono', monospace;
+}
+
+.container-header {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.container-header a {
+  background-color: #5ed3eb;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top : 10px;
+  padding-bottom: 10px;
+  margin-left: 10%;
+  margin-right: 5%;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  max-width: 120px;
+}
+
+.container-header a:first-child {
+  background-color: #ff764e;
+
+}
+
+.container-header a:last-child {
+  background-color: #ffcd69;
+}
+
+.container-header a:hover {
+  background-color: black;
+  color: white
+}
+
+.intro-part {
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;  
+}
+
+.intro-part :first-child{
+  display: inline-block;
+  margin-right: 20%;
+}
+
+.intro-part :last-child{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Syne Mono', monospace;
+    display: inline-block;
+}
+#rounded-top-image {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.ana-metin {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: #DDB9A3;
+    color: white;
+    text-align: center;
+}
+
+.orta-bolum {
+    text-align: center;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+
+
+.orta-bolum img {
+  width: 30%;
+}
+
+.peri-bacalari-resim {
+  height: 200px;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 0px;
+}
+.peri-bacalari-resim img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+}
+.container-footer footer {
+   background-color: #F9E7DC;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 3%;
+   padding-top: 1%;
+   margin-top: 0px;
+   width: 100%;
+}
+
+.container-footer footer p {
+    background-color: #5ed3eb;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top : 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: auto;
+  }
+  
+  .container-footer footer p:first-child {
+    background-color: #ff764e;
+    margin-left: 85px;
+  }
+  
+  .container-footer footer p:last-child {
+    background-color: #ffcd69;
+    margin-right: 40px;
+  }
+
+  .container-footer footer p:hover {
+    background-color: black;
+    color: white
+  }
+
+  span {
+    font-weight: bold;
+  }
+/Workintech/FSWeb-S3G2-Intro-CSS/blob/main/design/desktop.jpg
