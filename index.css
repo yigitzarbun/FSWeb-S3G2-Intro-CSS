@@ -27,6 +27,7 @@ font-family: 'Syne Mono', monospace;
   color: white;
   display: inline-block;
   max-width: 120px;
+  text-decoration: none;
 }
 
 .container-header a:first-child {
@@ -65,6 +66,10 @@ font-family: 'Syne Mono', monospace;
     width: 250px;
     height: 250px;
     margin-top: 20px;
+}
+
+.intro-texts {
+  vertical-align: top;
 }
 
 .ana-metin {
@@ -124,6 +129,7 @@ font-family: 'Syne Mono', monospace;
     color: white;
     width: 100px;
     height: auto;
+    text-decoration: none;
   }
   
   .container-footer footer p:first-child {
